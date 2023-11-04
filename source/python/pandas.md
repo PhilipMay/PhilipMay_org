@@ -1,6 +1,7 @@
 # Pandas
 
 ## Links
+
 - indexing and selecting data: <https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html>
 - using iloc, loc, & ix: <https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/>
 - iterating dataframes
@@ -8,18 +9,20 @@
   - itertuples: <https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.itertuples.html>
   - iteritems: <https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.iteritems.html>
 
-
 ## Create Dataframe
+
 ```python
 data = {"col1": [1, 2], "col2": [3, 4]}
 df = pd.DataFrame(data=data)
 ```
 
 ## Load and Save CSV
+
 - save to CSV: `df.to_csv("path_or_buffer.csv")`
 - save to CSV (without row names / index): `df.to_csv("path_or_buffer.csv", index=False)`
 - save to compressed CSV (without row names / index): `df.to_csv("path_or_buffer.csv.gz", compression="gzip", index=False)`
 - load from CSV:
+
 ```python
 df = pd.read_csv(
     "path_or_buffer",
@@ -31,13 +34,16 @@ df = pd.read_csv(
     quoting=csv.QUOTE_NONE,
 )
 ```
+
 - load csv without header: `df = pd.read_csv("path_or_buffer", names=["column_name_1", "column_name_2"], header=None)`
 
 ## Load and Save CSV Parquet
+
 - save to parquet: `df.to_parquet("<file_name>.parquet.gz", compression="gzip")`
 - load from parquet: `df = read_parquet("<file_name>.parquet.gz")`
 
 ## Display Data
+
 - count values in column (without `NaN` values): `df["col_name"].value_counts()`
 - count values in column (with `NaN` values): `df["col_name"].value_counts(dropna=False)`
 - duplicates
@@ -45,6 +51,7 @@ df = pd.read_csv(
   - display duplicate entries in column: `df[df["column_name"].duplicated(keep=False)]`
 
 ## Delete Data
+
 - delete column inline
   - `df.drop("column_name", axis=1, inplace=True)`
   - `column_name` can also be a list of `str`
@@ -54,6 +61,7 @@ df = pd.read_csv(
   - only consider certain columns to identify duplicates, keep first (inplace): `df.drop_duplicates(list_of_cols, inplace=True, keep="first")`
 
 ## Modify Data
+
 - sort
   - low to high values: `df.sort_values("column_name", inplace=True)`
   - high to low values: `df.sort_values("column_name", ascending=False, inplace=True)`
@@ -63,14 +71,18 @@ df = pd.read_csv(
 ## Combine Data
 
 ### Stack two Dataframes
+
 Never forget to `ignore_index` or you have duplicate index values and
 bad things might happen later!
+
 ```python
 df = pd.concat([df_01, df_02], ignore_index=True)
 ```
 
 ## Display Settings
+
 Examples for display settings:
+
 ```python
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
@@ -80,13 +92,16 @@ pd.set_option("display.max_colwidth", None)
 ```
 
 ## Filter nan Values
+
 `nan == nan` is always `false`. That is why we can not use `==` to
 check for `nan`-values. Use `pd.isnull(obj : scalar or array-like)`
 instead or `isnull()`. Examples:
+
 ```python
 df.loc[pd.isnull(df["col"])]
 df[df["col"].isnull()]
 ```
 
 ## Other
+
 - rename columns: `df.rename(columns={"a": "x"}, inplace=True)`

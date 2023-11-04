@@ -6,6 +6,7 @@
 ## Dict
 
 ### Iterate keys of dict
+
 ```python
 d = {'x': 1, 'y': 2, 'z': 3}
 for key in d:
@@ -13,6 +14,7 @@ for key in d:
 ```
 
 ### Iterate keys and values of dict:
+
 ```python
 d = {'x': 1, 'y': 2, 'z': 3}
 for key, value in d.items():

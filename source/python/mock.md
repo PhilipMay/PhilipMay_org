@@ -1,6 +1,7 @@
 # Mock
 
 ## Links
+
 - [unittest.mock Python doc](https://docs.python.org/3/library/unittest.mock.html)
   - [`patch`](https://docs.python.org/3/library/unittest.mock.html#patch)
   - [`patch.object`](https://docs.python.org/3/library/unittest.mock.html#patch-object)
@@ -10,6 +11,7 @@
 ## Asserts
 
 ### Assert Methods
+
 - [`assert_called()`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called)
 - [`assert_called_once()`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_once)
 - [`assert_called_with(*args, **kwargs)`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_with) -
@@ -22,9 +24,11 @@
 - [`assert_not_called()`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_not_called)
 
 ### Assert only some Arguments
+
 Assert not all exact arguments but just *some* of them.
 
 Example:
+
 ```python
 from unittest.mock import Mock, ANY
 mock = Mock(return_value=None)
@@ -33,15 +37,18 @@ mock.assert_called_once_with("foo", bar=ANY)
 ```
 
 ## Spy
+
 If you do not want to replace a function with a mock,
 but want to observe the parameters passed to the function,
 a so-called spy can be used.
 
 ### Spy on a Function
+
 To do this we use a combination of `patch` and the `wraps` argument.
 Note that the first argument of `patch` is a string.
 
 Example:
+
 ```python
 def my_function(x):
     return x + 1
@@ -53,10 +60,12 @@ with patch("__main__.my_function", wraps=my_function) as wrapped_function:
 ```
 
 ### Spy on a Method
+
 To do this we use a combination of `patch.object` and the `wraps` argument.
 Note that the first argument of `patch.object` is a object (instance).
 
 Example:
+
 ```python
 class MyClass:
     def my_function(self, x):
@@ -70,6 +79,7 @@ with patch.object(my_instance, 'my_function', wraps=my_instance.my_function) as 
 ```
 
 ## Seal a Mock
+
 Seal disables the automatic creation of mocks when accessing an attribute of the mock.
 Also see: https://docs.python.org/3/library/unittest.mock.html#unittest.mock.seal
 
@@ -78,6 +88,7 @@ If you misspell one of these assert methods then your assertion is simply swallo
 If you seal the mock after creation this avoids this problem.
 
 Example:
+
 ```python
 from unittest.mock import Mock, seal
 mock = Mock()

@@ -1,6 +1,7 @@
 # Docstrings
 
 ## Description
+
 Python docstrings can be written in many different formats. An overview
 of different methods can be found in the following Stack Overflow entry:
 [What is the standard Python docstring
@@ -14,6 +15,7 @@ guide](https://numpydoc.readthedocs.io/en/latest/) and here is a
 Sphinx](https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html).
 
 ## Links
+
 - PEP 8: <https://www.python.org/dev/peps/pep-0008/>
 - PEP 257: <https://www.python.org/dev/peps/pep-0257/>
 - PEP 287 - reStructuredText Docstring Format:

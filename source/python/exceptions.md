@@ -1,9 +1,11 @@
 # Exceptions
 
 ## Links
+
 - Built-in Exceptions: <https://docs.python.org/3/library/exceptions.html>
 
 ## Most Important Exceptions
+
 - `TypeError`: Raised when an operation or function is applied to an
   object of inappropriate type. The associated value is a string
   giving details about the type mismatch.
@@ -18,6 +20,7 @@
   IndexError.
 
 ## Logging Exceptions
+
 ```python
 try:
     something()

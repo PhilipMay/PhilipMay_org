@@ -1,6 +1,7 @@
 # REST API with Python
 
 ## Links
+
 - Flask: <https://flask.palletsprojects.com/>
   - Deploy to Production:
     <https://flask.palletsprojects.com/en/1.1.x/tutorial/deploy/>
@@ -23,6 +24,7 @@
   <https://realpython.com/python-gil/>
 
 ## How-tos and Questions
+
 - How can I listen a message queue in flask microservices:
   <https://stackoverflow.com/questions/53901699/how-can-i-listen-a-message-queue-in-flask-microservices>
 - A scalable Keras + deep learning REST API:

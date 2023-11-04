@@ -1,11 +1,13 @@
 # Selenium
 
 ## Links
+
 - [Selenium doc](https://www.selenium.dev/documentation/)
 - [Selenium with Python](https://selenium-python.readthedocs.io/)
 - [Webdriver Manager for Python](https://github.com/SergeyPirogov/webdriver_manager)
 
 ## Options and commands
+
 - install: `pip install selenium`
 - implicit wait
   - tells WebDriver to poll DOM for a certain amount of time when trying to find any element
@@ -13,7 +15,9 @@
   - also see [Implicit Waits](https://selenium-python.readthedocs.io/waits.html#implicit-waits)
 
 ## Examples
+
 #### Minimal:
+
 ```python
 from selenium import webdriver
 driver = webdriver.Chrome()
@@ -23,6 +27,7 @@ driver.quit()
 ```
 
 #### Minimal headless:
+
 ```python
 from selenium import webdriver
 from selenium.webdriver import ChromeOptions

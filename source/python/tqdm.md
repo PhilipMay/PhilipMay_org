@@ -1,10 +1,13 @@
 # tqdm
 
 ## Links
+
 - s<https://github.com/tqdm/tqdm>
 
 ## Usage
+
 Simple usage:
+
 ```python
 from tqdm import tqdm
 
@@ -13,6 +16,7 @@ for i in tqdm(range(10000)):
 ```
 
 Manual usage:
+
 ```python
 from tqdm import tqdm
 

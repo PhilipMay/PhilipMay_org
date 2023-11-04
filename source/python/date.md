@@ -1,6 +1,7 @@
 # Date & Time
 
 ## Links
+
 - [datetime - Basic date and time types](https://docs.python.org/3/library/datetime.html)
   - [datetime.isoformat - convert to ISO 8601](https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat)
   - [datetime.astimezone - convert timezone](https://docs.python.org/3/library/datetime.html#datetime.datetime.astimezone)
@@ -9,7 +10,9 @@
 ## Examples
 
 ### Now, ISO 8601 and UTC
+
 #### Current date and time in ISO 8601 format:
+
 ```python
 from datetime import datetime
 date = datetime.now().isoformat()
@@ -18,6 +21,7 @@ print(date)
 ```
 
 #### Current date and time in ISO 8601 format in seconds resolution:
+
 ```python
 from datetime import datetime
 date = datetime.now().isoformat(timespec="seconds")
@@ -26,6 +30,7 @@ print(date)
 ```
 
 #### Current date and time in ISO 8601 format normalized to UTC time:
+
 ```python
 from datetime import datetime
 date = datetime.now().astimezone().isoformat()
@@ -34,6 +39,7 @@ print(date)
 ```
 
 #### Current date and time in ISO 8601 format normalized to UTC time in seconds resolution:
+
 ```python
 from datetime import datetime
 date = datetime.now().astimezone().isoformat(timespec="seconds")
@@ -42,7 +48,9 @@ print(date)
 ```
 
 ### Parsing
+
 #### Parse date string (no time) to ISO 8601 format:
+
 ```python
 from datetime import datetime
 date = datetime.strptime("04.01.1976", "%d.%m.%Y").date().isoformat()
