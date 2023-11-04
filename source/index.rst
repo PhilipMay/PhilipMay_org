@@ -8,6 +8,7 @@ May.la
    python
    linux
    it
+   machine-learning
 
 
 Indices and tables
