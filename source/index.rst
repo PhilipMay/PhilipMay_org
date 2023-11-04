@@ -6,6 +6,7 @@ May.la
    :caption: Contents:
 
    python
+   linux
 
 
 Indices and tables
