@@ -13,7 +13,10 @@ author = 'Philip May'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    # "myst_parser",  # not needed when myst_nb is active
+    "myst_nb",
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -23,5 +26,11 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+# https://github.com/executablebooks/sphinx-book-theme
+# https://sphinx-book-theme.readthedocs.io/
+html_theme = 'sphinx_book_theme'
+
 html_static_path = ['_static']
+
+# https://myst-nb.readthedocs.io/en/latest/computation/execute.html
+nb_execution_mode = "off"
