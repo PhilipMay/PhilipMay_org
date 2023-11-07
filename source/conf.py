@@ -16,6 +16,7 @@ author = 'Philip May'
 extensions = [
     # "myst_parser",  # not needed when myst_nb is active
     "myst_nb",
+    "sphinx_design",  # https://sphinx-design.readthedocs.io/
 ]
 
 templates_path = ['_templates']
@@ -34,3 +35,20 @@ html_static_path = ['_static']
 
 # https://myst-nb.readthedocs.io/en/latest/computation/execute.html
 nb_execution_mode = "off"
+
+# https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
+# myst_enable_extensions = [
+    # "amsmath",
+    # "colon_fence",
+    # "deflist",
+    # "dollarmath",
+    # "fieldlist",
+    # "html_admonition",
+    # "html_image",
+    # "linkify",
+    # "replacements",
+    # "smartquotes",
+    # "strikethrough",
+    # "substitution",
+    # "tasklist",
+# ]
