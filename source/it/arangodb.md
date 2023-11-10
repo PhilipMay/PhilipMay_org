@@ -10,7 +10,7 @@
 
 ## AQL Examples
 
-#### Query all documents from a collection:
+### Query all documents from a collection:
 
 - also see [FOR (v3.11)](https://www.arangodb.com/docs/3.11/aql/operations-for.html)
 
@@ -19,7 +19,7 @@ FOR doc IN collection
   RETURN doc
 ```
 
-#### Filter documents from a collection:
+### Filter documents from a collection:
 
 - also see [FILTER (v3.11)](https://www.arangodb.com/docs/3.11/aql/operations-filter.html)
 
@@ -29,7 +29,7 @@ FOR doc IN collection
   RETURN doc
 ```
 
-#### Filter documents without `surname` attribute name from a collection:
+### Filter documents without `surname` attribute name from a collection:
 
 - also see [HAS (v3.11)](https://www.arangodb.com/docs/3.11/aql/functions-document.html#has)
 
@@ -39,7 +39,7 @@ FOR doc IN collection
   RETURN doc
 ```
 
-#### Query at most 10 documents from a collection:
+### Query at most 10 documents from a collection:
 
 - also see [LIMIT (v3.11)](https://www.arangodb.com/docs/3.11/aql/operations-limit.html)
 
@@ -49,7 +49,7 @@ FOR doc IN collection
   RETURN doc
 ```
 
-#### Filter and count documents from a collection:
+### Filter and count documents from a collection:
 
 - also see [COLLECT (v3.11)](https://www.arangodb.com/docs/3.11/aql/operations-collect.html)
 - also see [COLLECT WITH COUNT (v3.11)](https://www.arangodb.com/docs/3.11/aql/operations-collect.html#group-length-calculation)
@@ -61,7 +61,7 @@ FOR doc IN collection
   RETURN length
 ```
 
-#### Group and Count
+### Group and Count
 
 - group by attribute and count
 - also see [COLLECT (v3.11)](https://www.arangodb.com/docs/3.11/aql/operations-collect.html)
@@ -75,7 +75,7 @@ FOR doc IN collection
   }
 ```
 
-#### Delete Attribute
+### Delete Attribute
 
 - also see [UPDATE (v3.11)](https://www.arangodb.com/docs/stable/aql/operations-update.html#keepnull)
 

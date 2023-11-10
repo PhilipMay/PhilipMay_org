@@ -16,7 +16,7 @@
 
 ## Examples
 
-#### Minimal:
+### Minimal:
 
 ```python
 from selenium import webdriver
@@ -26,7 +26,7 @@ print(driver.title)
 driver.quit()
 ```
 
-#### Minimal headless:
+### Minimal headless:
 
 ```python
 from selenium import webdriver
