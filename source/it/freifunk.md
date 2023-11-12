@@ -88,7 +88,10 @@
   - USB Buchse ausgelötet - siehe Foto unten
   - WPS und WLAN Schalter abgekniffen - siehe Foto unten
 
-{{\< figure src="/img/docs/passiv-poe-umbau-fritz-box-4020.jpg" caption="Photo of the hardware modification" >}}
+:::{figure} ../_static/img/passiv-poe-umbau-fritz-box-4020.jpg
+
+Photo of the hardware modification
+:::
 
 ## Nummer 11 - AVM FRITZ!Box 4020
 

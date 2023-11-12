@@ -17,6 +17,7 @@ python
 linux
 it
 machine-learning
+blog
 :::
 ::::
 :::::
