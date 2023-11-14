@@ -1,2 +1,9 @@
 RewriteEngine  on
-RewriteRule    "^/blog/$"  "/blog.html" [R=301,L]
+
+# top level categories
+RewriteRule ^blog/$ /blog.html [R=301,L]
+RewriteRule ^machine-learning/$ /machine-learning.html [R=301,L]
+RewriteRule ^python/$ /python.html [R=301,L]
+RewriteRule ^it/$ /it.html [R=301,L]
+RewriteRule ^linux/$ /linux.html [R=301,L]
+RewriteRule ^open-source-contributions/$ /index.html [R=301,L]
