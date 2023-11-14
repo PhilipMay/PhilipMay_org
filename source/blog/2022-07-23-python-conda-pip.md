@@ -5,6 +5,7 @@ It is a subjective article and represents my own opinion and experience.
 The article is structured by several recommendations.
 
 ## Recommendation 1: Never install Python
+
 This sounds a bit strange but the first recommendation is to never install Python itself.
 The reason is that otherwise you would commit to a single very concrete Python version.
 However, you don't want that in principle, because there are different packages that have
@@ -13,6 +14,7 @@ different version requirements.
 But how do you install Python without installing it?
 
 ## Recommendation 2: Use conda to install and manage Python
+
 You should use [conda](https://docs.conda.io/) to install and manage Python:
 
 > Conda is an open source package management system and environment management system that
@@ -30,6 +32,7 @@ More details about the use and installation of conda you can find on my
 [conda page](/python/conda/).
 
 ## Recommendation 3: Disable conda automatic base Activation
+
 After the conda installation, the so-called base environment is automatically activated in every shell.
 If you now install a package - without explicitly activating another environment before - then
 the package will be installed into this base environment. This clutters up the base environment and
@@ -37,12 +40,14 @@ is annoying. So to force an explicit environment activation you can disable cond
 This is done with the following command: `conda config --set auto_activate_base false`
 
 ## Recommendation 4: Never install Anaconda
+
 Anaconda also includes conda. During the installation, however, numerous other packages are installed
 completely unnecessarily. This is the reason why Anaconda is just an unnecessary and
 completely bloated software that I cannot recommend to anyone.
 Nothing more needs to be said about this.
 
 ## Recommendation 5: Do not use conda to install Packages
+
 Conda can be used not only to manage environments and
 different Python versions, but also to install Python packages like NumPy or pandas.
 
@@ -57,6 +62,7 @@ Many maintainers release only unofficially or not at all a conda version of thei
 Then the conda package is maintained by someone completely different.
 
 ## Recommendation 6: Use pip to install Packages
+
 To avoid the problem described above, I always use [pip](https://pip.pypa.io/en/stable/)
 for package installation.
 Conda is then only used to create and manage the environments and to install Python.

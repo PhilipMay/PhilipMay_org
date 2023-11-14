@@ -42,6 +42,7 @@ Talk about this model:\
 :::
 
 :::{grid-item-card} German T5 models in 3 different sizes
+
 - [GermanT5/t5-efficient-gc4-all-german-large-nl36](https://huggingface.co/GermanT5/t5-efficient-gc4-all-german-large-nl36)
 - [GermanT5/t5-efficient-gc4-german-base-nl36](https://huggingface.co/GermanT5/t5-efficient-gc4-german-base-nl36)
 - [GermanT5/t5-efficient-gc4-all-german-small-el32](https://huggingface.co/GermanT5/t5-efficient-gc4-all-german-small-el32)
@@ -103,11 +104,11 @@ Includes also a prepared corpus for English and German language.
 This repository contains two datasets:
 
 1. A labeled multi-domain (21 domains) German and
-English dataset with 25K user utterances for human-robot interaction.
-It is also available as a Hugging Face dataset:
-[deutsche-telekom/NLU-Evaluation-Data-en-de](https://huggingface.co/datasets/deutsche-telekom/NLU-Evaluation-Data-en-de)
+   English dataset with 25K user utterances for human-robot interaction.
+   It is also available as a Hugging Face dataset:
+   [deutsche-telekom/NLU-Evaluation-Data-en-de](https://huggingface.co/datasets/deutsche-telekom/NLU-Evaluation-Data-en-de)
 2. A dataset with 1,127 German sentence pairs with a similarity score. The sentences originate from the first data set.
-:::
+   :::
 
 :::{grid-item-card} [deutsche-telekom/NLU-few-shot-benchmark-en-de](https://huggingface.co/datasets/deutsche-telekom/NLU-few-shot-benchmark-en-de)
 This is a few-shot training dataset from the domain of human-robot interaction.
@@ -197,14 +198,14 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 - refactor slow sentencepiece tokenizers and add tests: [#11716](https://github.com/huggingface/transformers/pull/11716),
   [#11737](https://github.com/huggingface/transformers/pull/11737)
 - [more fixes and improvements](https://github.com/huggingface/transformers/pulls?q=is%3Apr+author%3APhilipMay)
-:::
+  :::
 
 :::{grid-item-card} [Optuna](https://github.com/optuna/optuna)
 
 - add MLflow integration callback: [#1028](https://github.com/optuna/optuna/pull/1028)
 - trial level suggest for same variable with different parameters give warning: [#908](https://github.com/optuna/optuna/pull/908)
 - [more fixes and improvements](https://github.com/optuna/optuna/pulls?q=is%3Apr+author%3APhilipMay)
-:::
+  :::
 
 :::{grid-item-card} [Sentence Transformers](https://github.com/UKPLab/sentence-transformers)
 
@@ -212,7 +213,7 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 - add option to pass params to tokenizer: [#342](https://github.com/UKPLab/sentence-transformers/pull/342)
 - always store best_score: [#439](https://github.com/UKPLab/sentence-transformers/pull/439)
 - fix for OOM problems on GPU with large datasets: [#525](https://github.com/UKPLab/sentence-transformers/pull/525)
-:::
+  :::
 
 :::{grid-item-card} [SetFit - Efficient Few-shot Learning with Sentence Transformers](https://github.com/huggingface/setfit)
 
@@ -222,7 +223,7 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 - add option to use amp / FP16 [#134](https://github.com/huggingface/setfit/pull/134)
 - add num_epochs to train_step calculation [#139](https://github.com/huggingface/setfit/pull/134)
 - add more loss function options [#159](https://github.com/huggingface/setfit/pull/159)
-:::
+  :::
 
 :::{grid-item-card} Other Fixes and Improvements
 
@@ -233,7 +234,7 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 - [deepset-ai/FARM](https://github.com/deepset-ai/FARM): [various fixes and improvements](https://github.com/deepset-ai/FARM/pulls?q=is%3Apr+author%3APhilipMay)
 - [hyperopt/hyperopt](https://github.com/hyperopt/hyperopt): add progressbar with tqdm [#455](https://github.com/hyperopt/hyperopt/pull/455)
 - [mlflow/mlflow](https://github.com/mlflow/mlflow): add possibility to use client cert. with tracking API [#2843](https://github.com/mlflow/mlflow/pull/2843)
-:::
+  :::
 
 ::::
 

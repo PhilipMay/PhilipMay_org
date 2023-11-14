@@ -5,7 +5,7 @@ my colleague [Michal Harakal](https://www.harakal.de/) and I noticed that in man
 sentence of the input text.
 Instead, it should generate an independent summary of the whole text.
 
-:::{figure} ../_static/img/text-unsplash.jpg
+:::{figure} ../\_static/img/text-unsplash.jpg
 :width: 50 %
 
 Photo by [Sandy Millar](https://unsplash.com/@sandym10?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-book-with-some-type-of-text-Kl4LNdg6on4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

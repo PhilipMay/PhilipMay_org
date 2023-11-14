@@ -9,6 +9,7 @@ The general options to encode the time dimension like the birth date of a custom
 3. relative to "today" - e.g. number of days before today
 
 ## Pros and cons: separate encoding of year, month and maybe also day and weekday
+
 If you believe in astrology this might be your favorite to encode a birth date since the month is preserved. If you want to encode a *production date* it also might be useful to encode the weekday. That is because there might be a relation between product quality in production and weekday. Parts manufactured on Mondays may have the most severe quality variations.
 
 The disadvantage is that you need multiple columns to encode the date.
@@ -16,6 +17,7 @@ Furthermore, this approach also suffers from a
 [concept drift](https://en.wikipedia.org/wiki/Concept_drift) problem (see below).
 
 ## Pros and cons: relative to a certain point in time in the past
+
 This is easy to calculate because the "point in time in the past" (January 1st 1900 for example) is a fixed point in time. This contrasts with the encoding which is relative to "today". But the problem with this encoding is the following:
 
 There are circumstances that in reality are not related to the date itself, but much more to the age. The remaining service life of a technical device is much more directly related to its age than to its production date. Whether a customer is interested in an airplane trip or a train ticket also depends on age and not so much on the date of birth. So, if you represent the date of birth relative to a time in the past, then the resulting model would have a built-in [concept drift](https://en.wikipedia.org/wiki/Concept_drift).
@@ -23,6 +25,7 @@ There are circumstances that in reality are not related to the date itself, but 
 For example, two predictions are made for the same person with his or her date of birth. One prediction on January 2022 and one on January 2023. Then the person is obviously one year older at the second prediction in January 2023. But this would not be visible in the encoding of the date of birth (if you encode it relative to a point in time in the past). The model would therefore experience a concept drift and would have to be re-trained.
 
 ## Pros and cons: relative to "today"
+
 This would be the encoding of choice if there is a relation between age and prediction. It would prevent the concept drift described above. The disadvantage of the coding is that the reference day "today" is very dynamic and not fixed. So you have to be very careful how you set "today".
 
 A distinction is made between the generation of the training data (validation- and testdata) and the prediction at production time. The prediction at production time is easy to understand. The "today" is just the day where the prediction is made. However, generating the training data is a bit more difficult. "Today" must not be the day on which the training data was generated. Instead, the day "today" is relative to the day on which the label was "created". The easiest way to explain this is to use an example:
