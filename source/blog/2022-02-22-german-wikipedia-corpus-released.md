@@ -1,4 +1,4 @@
-# 2022-02-22 Clean German Wikipedia Text Corpus released
+# 2022-02-22: Clean German Wikipedia Text Corpus released
 
 Today I published a new Wikipedia-based German text corpus. It is to be used for NLP machine learning tasks.
 

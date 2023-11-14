@@ -1,4 +1,4 @@
-# 2022-02-20 LightGBM with Optuna: Demo released
+# 2022-02-20: LightGBM with Optuna: Demo released
 
 This week I published a project to show how to combine
 LightGBM and Optuna efficiently to train good models.

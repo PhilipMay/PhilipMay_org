@@ -1,4 +1,4 @@
-# 2020-12-01 Talk: Training and Evaluation of our German Electra Language Model
+# 2020-12-01: Training and Evaluation of our German Electra Language Model Talk
 
 Together with [Philipp Reissel](https://twitter.com/phil_ipp_) from [ambeRoad](https://amberoad.de/) I gave a talk about the training and evaluation of our open-source [German Electra NLP language model](https://huggingface.co/german-nlp-group/electra-base-german-uncased).
 

@@ -1,4 +1,4 @@
-# 2022-10-12 Options for Date Encoding
+# 2022-10-12: Options for Date Encoding
 
 Some data, such as strings, must be encoded to be used in machine learning models. Here we explore the different options for encoding date fields.
 
