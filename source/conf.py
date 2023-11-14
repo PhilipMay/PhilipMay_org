@@ -49,6 +49,8 @@ html_theme_options = {
 
 html_static_path = ['_static']
 
+html_extra_path = ['_extra']
+
 # https://myst-nb.readthedocs.io/en/latest/computation/execute.html
 nb_execution_mode = "off"
 
