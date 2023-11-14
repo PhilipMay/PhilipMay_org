@@ -1,4 +1,4 @@
-# Website about Data Science and IT
+# Philip May - Data Science and IT
 
 :::::{grid} 2
 ::::{grid-item-card}
