@@ -13,10 +13,10 @@ This website is a mixture of documentation, blog and personal notes.
 :::{toctree}
 :maxdepth: 1
 
-python
-linux
-it
 machine-learning
+python
+it
+linux
 blog
 :::
 ::::
