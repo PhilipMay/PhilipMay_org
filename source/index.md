@@ -1,6 +1,8 @@
 # Philip May - Data Science and IT
 
-:::::{grid} 2
+:::::{grid} 1
+:gutter: 2
+
 ::::{grid-item-card}
 I'm Philip May, data scientist expert and open source enthusiast with an NLP focus.
 I come from Germany and work for Deutsche Telekom.
@@ -29,7 +31,7 @@ This is an overview of my open source [models](#models), [datasets](#datasets),
 
 ### Models
 
-::::{grid} 2
+::::{grid} 1
 :gutter: 2
 
 :::{grid-item-card} [german-nlp-group/electra-base-german-uncased](https://huggingface.co/german-nlp-group/electra-base-german-uncased)
@@ -67,7 +69,7 @@ It is based on the multilingual T5 model [google/mt5-small](https://huggingface.
 
 ### Datasets
 
-::::{grid} 2
+::::{grid} 1
 :gutter: 2
 
 :::{grid-item-card} [The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)
@@ -126,7 +128,7 @@ data set.
 
 ### Projects
 
-::::{grid} 2
+::::{grid} 1
 :gutter: 2
 
 :::{grid-item-card} [XLSR – Cross-Lingual Sentence Representations](https://github.com/German-NLP-Group/xlsr)
@@ -186,7 +188,7 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 
 ### Pull Requests
 
-::::{grid} 2
+::::{grid} 1
 :gutter: 2
 
 :::{grid-item-card} [Hugging Face / Transformers](https://github.com/huggingface/transformers)
@@ -240,7 +242,7 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 
 ### Archived Projects
 
-::::{grid} 2
+::::{grid} 1
 :gutter: 2
 
 :::{grid-item-card} [HPOflow](https://github.com/telekom/HPOflow)
