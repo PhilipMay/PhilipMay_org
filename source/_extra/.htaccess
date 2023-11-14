@@ -1,2 +1,2 @@
 RewriteEngine  on
-RewriteRule    "^/foo\.html$"  "/bar.html" [R=301,L]
+RewriteRule    "^/blog/$"  "/blog.html" [R=301,L]
