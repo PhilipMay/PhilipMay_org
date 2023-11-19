@@ -57,8 +57,10 @@ df = pd.read_csv(
 
 ## Display Data
 
-- count values in column (without `NaN` values): `df["col_name"].value_counts()`
-- count values in column (with `NaN` values): `df["col_name"].value_counts(dropna=False)`
+- count values in colums
+  - without `NaN` values: `df["col_name"].value_counts()`
+  - with `NaN` values: `df["col_name"].value_counts(dropna=False)`
+  - see <https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html>
 - duplicates
   - display duplicate rows: `df[df.duplicated(keep=False)]`
   - display duplicate entries in column: `df[df["column_name"].duplicated(keep=False)]`
