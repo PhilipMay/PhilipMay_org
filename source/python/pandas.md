@@ -45,8 +45,8 @@ df = pd.read_csv(
 ## Load and Save with Pickle
 
 - save to parquet: `df.to_pickle("file_name.pkl.xz", compression="xz")`
-- load from parquet: `df = read_pickle("file_name.pkl.xz")`
 - see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_pickle.html>
+- load from parquet: `df = read_pickle("file_name.pkl.xz")`
 - see <https://pandas.pydata.org/docs/reference/api/pandas.read_pickle.html>
 
 ## Display Data
