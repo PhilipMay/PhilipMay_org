@@ -37,10 +37,17 @@ df = pd.read_csv(
 
 - load csv without header: `df = pd.read_csv("path_or_buffer", names=["column_name_1", "column_name_2"], header=None)`
 
-## Load and Save Parquet
+## Load and Save as Parquet
 
 - save to parquet: `df.to_parquet("<file_name>.parquet.gz", compression="gzip", index=False)`
 - load from parquet: `df = read_parquet("<file_name>.parquet.gz")`
+
+## Load and Save with Pickle
+
+- save to parquet: `df.to_pickle("<file_name>.pkl.xz", compression="xz")`
+- load from parquet: `df = read_pickle("<file_name>.pkl.xz")`
+- see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_pickle.html>
+- see <https://pandas.pydata.org/docs/reference/api/pandas.read_pickle.html>
 
 ## Display Data
 
