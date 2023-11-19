@@ -39,17 +39,21 @@ df = pd.read_csv(
 
 ## Load and Save as Parquet
 
-- save to parquet: `df.to_parquet("file_name.parquet.gz", compression="gzip", index=False)`
-- see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_parquet.html>
-- load from parquet: `df = read_parquet("file_name.parquet.gz")`
-- see <https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html>
+- save to parquet
+  - `df.to_parquet("file_name.parquet.gz", compression="gzip", index=False)`
+  - see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_parquet.html>
+- load from parquet
+  - `df = read_parquet("file_name.parquet.gz")`
+  - see <https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html>
 
 ## Load and Save with Pickle
 
-- save to parquet: `df.to_pickle("file_name.pkl.xz", compression="xz")`
-- see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_pickle.html>
-- load from parquet: `df = read_pickle("file_name.pkl.xz")`
-- see <https://pandas.pydata.org/docs/reference/api/pandas.read_pickle.html>
+- save with pickle
+  - `df.to_pickle("file_name.pkl.xz", compression="xz")`
+  - see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_pickle.html>
+- load with pickle
+  - `df = read_pickle("file_name.pkl.xz")`
+  - see <https://pandas.pydata.org/docs/reference/api/pandas.read_pickle.html>
 
 ## Display Data
 
