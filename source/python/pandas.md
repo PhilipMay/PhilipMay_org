@@ -40,7 +40,9 @@ df = pd.read_csv(
 ## Load and Save as Parquet
 
 - save to parquet: `df.to_parquet("file_name.parquet.gz", compression="gzip", index=False)`
+- see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_parquet.html>
 - load from parquet: `df = read_parquet("file_name.parquet.gz")`
+- see <https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html>
 
 ## Load and Save with Pickle
 
