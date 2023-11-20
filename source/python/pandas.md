@@ -43,7 +43,7 @@ df = pd.read_csv(
   - `df.to_parquet("file_name.parquet.gz", compression="gzip", index=False)`
   - see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_parquet.html>
 - load from parquet
-  - `df = read_parquet("file_name.parquet.gz")`
+  - `df = pd.read_parquet("file_name.parquet.gz")`
   - see <https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html>
 
 ## Load and Save with Pickle
@@ -52,7 +52,7 @@ df = pd.read_csv(
   - `df.to_pickle("file_name.pkl.xz", compression="xz")`
   - see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_pickle.html>
 - load with pickle
-  - `df = read_pickle("file_name.pkl.xz")`
+  - `df = pd.read_pickle("file_name.pkl.xz")`
   - see <https://pandas.pydata.org/docs/reference/api/pandas.read_pickle.html>
 
 ## Display Data
