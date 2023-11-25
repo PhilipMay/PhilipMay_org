@@ -1,4 +1,7 @@
-# 2022-07-23: Python Installation and Package Management with conda and pip
+# Python Installation and Package Management with conda and pip
+
+:::{post} 2022-07-23
+:::
 
 This article is about installing Python and package management.
 It is a subjective article and represents my own opinion and experience.

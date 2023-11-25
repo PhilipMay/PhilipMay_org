@@ -1,4 +1,7 @@
-# 2022-02-23: Anomalies in the MLSUM Dataset
+# Anomalies in the MLSUM Dataset
+
+:::{post} 2022-02-23
+:::
 
 While evaluating the [ml6team/mt5-small-german-finetune-mlsum](https://huggingface.co/ml6team/mt5-small-german-finetune-mlsum) summarization model,
 my colleague [Michal Harakal](https://www.harakal.de/) and I noticed that in many cases this model for summarization simply reproduces the first

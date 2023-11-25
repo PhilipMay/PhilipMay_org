@@ -21,6 +21,13 @@ blog
 :::
 ::::
 
+## Blog
+
+:::{postlist}
+:excerpts:
+:expand:
+:::
+
 ## My Open Source Contributions
 
 This is an overview of my open source [models](#models), [datasets](#datasets),

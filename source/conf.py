@@ -19,6 +19,7 @@ extensions = [
     "myst_nb",
     "sphinx_design",  # https://sphinx-design.readthedocs.io/
     "sphinx_copybutton",  # https://github.com/executablebooks/sphinx-copybutton
+    "ablog",  # https://ablog.readthedocs.io/
 ]
 
 templates_path = ['_templates']
@@ -70,3 +71,10 @@ myst_enable_extensions = [
     # "substitution",
     # "tasklist",
 ]
+
+# Blog config https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
+blog_authors = {
+    'PhilipMay': ('Philip May', 'http://may.la'),
+}
+
+blog_default_author='PhilipMay'
