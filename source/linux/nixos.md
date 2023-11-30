@@ -24,6 +24,9 @@
 
 - get path to nix repository: `nix-instantiate --eval -E '<nixpkgs>'` - also see [Nix Search Paths](https://nixos.org/guides/nix-pills/nix-search-paths.html)
 
+## Installation
+- [Installing from another Linux distribution](https://nixos.org/manual/nixos/stable/#sec-installing-from-other-distro)
+
 ## ZFS
 
 - https://nixos.wiki/wiki/ZFS
