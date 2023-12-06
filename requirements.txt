@@ -1,8 +1,9 @@
 sphinx
 myst-parser
-sphinx-book-theme
+pydata-sphinx-theme
 myst-nb
 mdformat
 sphinx-design
 sphinx-copybutton
 ablog
+black[jupyter]

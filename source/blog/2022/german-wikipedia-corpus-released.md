@@ -5,8 +5,8 @@
 
 Today I published a new Wikipedia-based German text corpus. It is to be used for NLP machine learning tasks.
 
-:::{figure} ../\_static/img/wikipedia.png
-:width: 50 %
+:::{figure} /\_static/img/wikipedia.png
+:width: 550px
 
 Wikipedia
 :::

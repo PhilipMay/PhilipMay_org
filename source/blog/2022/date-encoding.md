@@ -5,6 +5,12 @@
 
 Some data, such as strings, must be encoded to be used in machine learning models. Here we explore the different options for encoding date fields.
 
+:::{figure} /\_static/img/date-encoding.png
+:width: 550px
+
+Date encoding
+:::
+
 The general options to encode the time dimension like the birth date of a customer or the production time of a product are:
 
 1. separate encoding of year, month and maybe also day and weekday

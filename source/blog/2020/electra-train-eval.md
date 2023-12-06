@@ -10,5 +10,5 @@ We tell what is done differently with our model or the tokenizer than with other
 explain the composition of our text corpus and illustrate the evaluation and
 comparison of the language model.
 
-[Slides](../_static/doc/German_Language_Model_Training_and_Evaluation.pdf) and
+[Slides](/_static/doc/German_Language_Model_Training_and_Evaluation.pdf) and
 [YouTube video](https://www.youtube.com/watch?v=cxgrTd2AQis) are available:

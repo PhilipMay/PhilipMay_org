@@ -7,8 +7,8 @@ This week I published a project to show how to combine
 LightGBM and Optuna efficiently to train good models.
 The purpose of this work is to be able to be reused as a template for new projects.
 
-:::{figure} ../\_static/img/lightgbm-optuna.png
-:width: 50 %
+:::{figure} /\_static/img/lightgbm-optuna.png
+:width: 550px
 
 LightGBM & Optuna
 :::
