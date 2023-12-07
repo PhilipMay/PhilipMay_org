@@ -1,3 +1,4 @@
+(python-main)=
 # Python
 
 ```{toctree}

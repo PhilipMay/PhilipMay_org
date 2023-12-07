@@ -1,4 +1,5 @@
-# Open Source Contributions
+(my-oss-contribs)=
+# My Open Source Contributions
 
 This is an overview of my open source [models](#models), [datasets](#datasets),
 [projects](#projects) and [contributions](#pull-requests).
