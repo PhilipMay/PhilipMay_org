@@ -68,6 +68,12 @@ html_theme_options = {
     "footer_end": [],
 }
 
+# https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/source-buttons.html#view-source-link
+html_show_sourcelink = False
+
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_copy_source
+html_copy_source = False
+
 html_static_path = ["_static"]
 
 html_extra_path = ["_extra"]
