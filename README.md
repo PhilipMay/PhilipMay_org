@@ -1,5 +1,8 @@
 # May.la MyST
 
+This is Philip May’s website project hostet at [May.la](https://may.la/).\
+This website is a mixture of documentation, blog and personal notes.
+
 ## Licensing
 
 Copyright (c) 2023 Philip May
