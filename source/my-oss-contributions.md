@@ -203,6 +203,16 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 
 ## Archived Projects
 
+:::{card} [Machine Learning Tool Box](https://github.com/PhilipMay/mltb)
+This is the machine learning tool box.
+A collection of userful machine learning tools intended for reuse and extension.
+The toolbox contains the following modules:
+hyperopt, keras, lightgbm, shap, metrics, plot, tools
+
+The main functionality is now available in
+[MLTB2](https://github.com/telekom/mltb2).
+:::
+
 :::{card} [HPOflow](https://github.com/telekom/HPOflow)
 Tools for [Optuna](https://optuna.readthedocs.io/),
 [MLflow](https://www.mlflow.org/docs/latest/index.html) and
