@@ -94,6 +94,15 @@ data set.
 
 ## Projects
 
+:::{card} [Machine Learning Tool Box 2](https://github.com/telekom/mltb2)
+A box of different machine learning tools. It contains tools for:\
+[fastText](https://fasttext.cc/), files, Markdown,
+[OpenAI](https://github.com/openai/openai-python),
+[Optuna](https://optuna.readthedocs.io/), plot,
+[SoMaJo](https://github.com/tsproisl/SoMaJo),
+[Transformers](https://huggingface.co/docs/transformers/index)
+:::
+
 :::{card} [XLSR – Cross-Lingual Sentence Representations](https://github.com/German-NLP-Group/xlsr)
 Models and training code for cross-lingual sentence representations like
 [T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer)
