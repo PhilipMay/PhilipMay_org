@@ -185,6 +185,7 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 - add option to pass params to tokenizer: [#342](https://github.com/UKPLab/sentence-transformers/pull/342)
 - always store best_score: [#439](https://github.com/UKPLab/sentence-transformers/pull/439)
 - fix for OOM problems on GPU with large datasets: [#525](https://github.com/UKPLab/sentence-transformers/pull/525)
+- [more fixes and improvements](https://github.com/UKPLab/sentence-transformers/pulls?q=is%3Apr+author%3APhilipMay)
 
 :::
 
@@ -196,6 +197,7 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 - add option to use amp / FP16 [#134](https://github.com/huggingface/setfit/pull/134)
 - add num_epochs to train_step calculation [#139](https://github.com/huggingface/setfit/pull/134)
 - add more loss function options [#159](https://github.com/huggingface/setfit/pull/159)
+- [more fixes and improvements](https://github.com/huggingface/setfit/pulls?q=is%3Apr+author%3APhilipMay)
 
 :::
 
