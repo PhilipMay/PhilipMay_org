@@ -15,3 +15,7 @@ Black can be configured in `pyproject.toml`
 line-length = 99
 target-version = ["py310"]
 ```
+
+## Black for Jupyter
+
+For Jupyter support do: `pip install black[jupyter]`
