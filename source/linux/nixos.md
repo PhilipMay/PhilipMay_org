@@ -24,6 +24,9 @@
 
 - get path to nix repository: `nix-instantiate --eval -E '<nixpkgs>'` - also see [Nix Search Paths](https://nixos.org/guides/nix-pills/nix-search-paths.html)
 - list available profiles: `nix-env --list-generations --profile /nix/var/nix/profiles/system`
+- update the system
+  - `nix-channel --update`
+  - `nixos-rebuild switch`
 
 ## Installation
 
