@@ -97,10 +97,13 @@ data set.
 
 :::{card} [Machine Learning Tool Box 2](https://github.com/telekom/mltb2) ([Documentation Page](https://telekom.github.io/mltb2/))
 A box of different machine learning tools. It contains tools for:\
+data loading,
 [fastText](https://fasttext.cc/), files, Markdown,
+Markdown,
 [OpenAI](https://github.com/openai/openai-python),
 [Optuna](https://optuna.readthedocs.io/), plot,
 [SoMaJo](https://github.com/tsproisl/SoMaJo),
+text cleaning,
 [Transformers](https://huggingface.co/docs/transformers/index)
 :::
 
