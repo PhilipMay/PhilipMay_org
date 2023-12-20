@@ -34,7 +34,7 @@
   - keep last 2 generations, along with any newer than current: `nix-env --delete-generations +2`
 - after removing old generations run garbage collector: `nix-store --gc`
 - delete unreachable store objects: `nix-collect-garbage -d`
-- <https://nixos.org/manual/nix/stable/package-management/garbage-collection>
+- also see: <https://nixos.org/manual/nix/stable/package-management/garbage-collection>
 
 ## Installation
 
