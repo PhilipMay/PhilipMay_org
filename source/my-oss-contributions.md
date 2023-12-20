@@ -95,7 +95,7 @@ data set.
 
 ## Projects
 
-:::{card} [Machine Learning Tool Box 2](https://github.com/telekom/mltb2)
+:::{card} [Machine Learning Tool Box 2](https://github.com/telekom/mltb2) ([Documentation Page](https://telekom.github.io/mltb2/))
 A box of different machine learning tools. It contains tools for:\
 [fastText](https://fasttext.cc/), files, Markdown,
 [OpenAI](https://github.com/openai/openai-python),
