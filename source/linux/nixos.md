@@ -28,6 +28,7 @@
 - update the system: `nixos-rebuild switch --upgrade`
 
 ## Cleanup
+
 - delete generations from the current profile
   - delete all except current: `nix-env --delete-generations old`
   - delete generations more than 14 days ago: `nix-env --delete-generations 14d`
