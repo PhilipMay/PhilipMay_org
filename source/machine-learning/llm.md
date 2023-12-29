@@ -3,6 +3,7 @@
 ## Base Knowledge
 
 - [HF: The Alignment Handbook](https://github.com/huggingface/alignment-handbook)
+- [HF: The Large Language Model Training Handbook](https://github.com/huggingface/llm_training_handbook)
 
 ## Specific Techniques
 
@@ -13,6 +14,9 @@
 
 ## Specific Models
 
+- Mixtral
+  - <https://mistral.ai/news/mixtral-of-experts/>
+  - HF Blog: <https://huggingface.co/blog/mixtral>
 - Argilla Notux
   - based on Mixtral
   - HF Model: <https://huggingface.co/argilla/notux-8x7b-v1>
