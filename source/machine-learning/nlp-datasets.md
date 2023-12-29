@@ -43,4 +43,5 @@
 
 ## More
 
-- https://github.com/UKPLab/sentence-transformers/issues/747#issuecomment-776993279
+- <https://github.com/UKPLab/sentence-transformers/issues/747#issuecomment-776993279>
+- Wikipedia (multiple languages): <https://huggingface.co/datasets/wikimedia/wikipedia>
