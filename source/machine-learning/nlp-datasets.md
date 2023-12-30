@@ -41,7 +41,17 @@
   - <http://www.romanklinger.de/scare/>
 - More Data: <https://github.com/WladimirSidorenko/CGSA>
 
+## Text Corpus
+
+### Multilingual Text Corpus
+
+- [RedPajama-Data-v2](https://www.together.ai/blog/redpajama-data-v2)
+- Wikipedia (multiple languages): <https://huggingface.co/datasets/wikimedia/wikipedia>
+
+## LLM Datasets
+
+- Function calling: https://huggingface.co/datasets/glaiveai/glaive-function-calling-v2
+
 ## More
 
 - <https://github.com/UKPLab/sentence-transformers/issues/747#issuecomment-776993279>
-- Wikipedia (multiple languages): <https://huggingface.co/datasets/wikimedia/wikipedia>
