@@ -51,7 +51,9 @@ You have to maintain this section in the `pyproject.toml` file by hand:
 black = "*"
 ruff = "*"
 mypy = "*"
-mdformat = "*"
+mdformat-gfm = "*"
+mdformat-frontmatter = "*"
+mdformat-footnote = "*"
 
 [tool.black]
 line-length = 119
