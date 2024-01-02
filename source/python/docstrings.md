@@ -23,3 +23,16 @@ Sphinx](https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html).
 - Google Python Style Guide:
   <https://github.com/google/styleguide/blob/gh-pages/pyguide.md>
 - Example Google Style Python Docstrings: https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html
+
+## Napoleon and Sphinx
+
+### Docstring Sections
+
+The most comment docstring sections are:
+
+- `Args:`
+- `Returns:`
+- `Raises:`
+- `Yields:`
+- `See Also:`
+- more see: [Docstring Sections](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#docstring-sections)
