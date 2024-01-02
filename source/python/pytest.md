@@ -40,8 +40,6 @@ def test_the_unknown():
 
 - also see <https://docs.pytest.org/en/7.1.x/how-to/skipping.html#skipping-test-functions>
 
-## Expect Test to fail
-
 ## Flaky Tests
 
 - rerun flaky tests
