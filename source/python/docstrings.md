@@ -26,6 +26,10 @@ Sphinx](https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html).
 
 ## Napoleon and Sphinx
 
+### Cross-referencing Python objects
+
+- [Cross-referencing Python objects](https://www.sphinx-doc.org/en/master/usage/domains/python.html#cross-referencing-python-objects)
+
 ### Docstring Sections
 
 The most comment docstring sections are:
