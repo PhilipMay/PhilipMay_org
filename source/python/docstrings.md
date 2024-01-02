@@ -22,8 +22,8 @@
 - class: ``:class:`module_name.ClassName` ``
 - meth: ``:meth:`module_name.ClassName.method_name` ``
 - prefix `~`: link text will only be the last component of the target
-- [Cross-referencing syntax](https://www.sphinx-doc.org/en/master/usage/domains/index.html#cross-referencing-syntax)
-- [Cross-referencing Python objects](https://www.sphinx-doc.org/en/master/usage/domains/python.html#cross-referencing-python-objects)
+- also see: [Cross-referencing syntax](https://www.sphinx-doc.org/en/master/usage/domains/index.html#cross-referencing-syntax)
+- also see: [Cross-referencing Python objects](https://www.sphinx-doc.org/en/master/usage/domains/python.html#cross-referencing-python-objects)
 
 ### Docstring Sections
 
@@ -34,4 +34,4 @@ The most comment docstring sections are:
 - `Raises:`
 - `Yields:`
 - `See Also:`
-- more see: [Docstring Sections](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#docstring-sections)
+- also see: [Docstring Sections](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#docstring-sections)
