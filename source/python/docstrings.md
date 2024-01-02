@@ -28,7 +28,9 @@ Sphinx](https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html).
 
 ### Cross-referencing Python objects
 
-- functions: `:func:\`platformdirs.user_data_dir\``
+- function: ``:func:`module_name.function_name` ``
+- class: ``:class:`module_name.ClassName` ``
+- meth: ``:meth:`module_name.ClassName.method_name` ``
 - [Cross-referencing Python objects](https://www.sphinx-doc.org/en/master/usage/domains/python.html#cross-referencing-python-objects)
 
 ### Docstring Sections
