@@ -21,6 +21,8 @@
 - function: ``:func:`module_name.function_name` ``
 - class: ``:class:`module_name.ClassName` ``
 - meth: ``:meth:`module_name.ClassName.method_name` ``
+- prefix `~`: link text will only be the last component of the target
+- [Cross-referencing syntax](https://www.sphinx-doc.org/en/master/usage/domains/index.html#cross-referencing-syntax)
 - [Cross-referencing Python objects](https://www.sphinx-doc.org/en/master/usage/domains/python.html#cross-referencing-python-objects)
 
 ### Docstring Sections
