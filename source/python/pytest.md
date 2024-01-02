@@ -18,6 +18,16 @@ def test_my_fruit_in_basket(my_value):
 
 ## Parametrize
 
+```python
+import pytest
+
+@pytest.mark.parametrize("test_input, expected", [("3+5", 8), ("2+4", 6), ("6*9", 42)])
+def test_eval(test_input, expected):
+    assert eval(test_input) == expected
+```
+
+- also see <https://docs.pytest.org/en/7.3.x/how-to/parametrize.html#pytest-mark-parametrize-parametrizing-test-functions>
+
 ## Skip Tests
 
 ## Expect Test to fail
