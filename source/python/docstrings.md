@@ -2,17 +2,7 @@
 
 ## Description
 
-Python docstrings can be written in many different formats. An overview
-of different methods can be found in the following Stack Overflow entry:
-[What is the standard Python docstring
-format?](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
-
-It seems to be clever to use the docstring format of scipy and numpy
-since these packages are very popular. A guide to the numpy docstring
-format is here: [numpydoc docstring
-guide](https://numpydoc.readthedocs.io/en/latest/) and here is a
-[Restructured Text (reST) syntax CheatSheet for
-Sphinx](https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html).
+- overview different docstring methods: [What is the standard Python docstring format?](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
 
 ## Links
 
