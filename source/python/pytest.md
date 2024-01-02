@@ -16,6 +16,11 @@ def test_my_fruit_in_basket(my_value):
 
 - also see <https://docs.pytest.org/en/6.2.x/fixture.html#back-to-fixtures>
 
+## Temporary Directories
+
+- fixture `tmp_path`: provides a `pathlib.Path` object
+- fixture `tmpdir`: provides a legacy `py.path.local` object
+
 ## Parametrize
 
 ```python
