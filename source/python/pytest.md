@@ -30,6 +30,16 @@ def test_eval(test_input, expected):
 
 ## Skip Tests
 
+```python
+import pytest
+
+@pytest.mark.skip(reason="no way of currently testing this")
+def test_the_unknown():
+    ...
+```
+
+- also see <https://docs.pytest.org/en/7.1.x/how-to/skipping.html#skipping-test-functions>
+
 ## Expect Test to fail
 
 ## Flaky Tests
