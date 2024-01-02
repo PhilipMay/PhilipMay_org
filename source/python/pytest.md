@@ -28,6 +28,18 @@ def test_eval(test_input, expected):
 
 - also see <https://docs.pytest.org/en/7.3.x/how-to/parametrize.html#pytest-mark-parametrize-parametrizing-test-functions>
 
+## Assert expected Exception
+
+```python
+import pytest
+
+def test_zero_division():
+    with pytest.raises(ZeroDivisionError):
+        1 / 0
+```
+
+- also see <https://docs.pytest.org/en/7.4.x/how-to/assert.html#assertions-about-expected-exceptions>
+
 ## Skip Tests
 
 ```python
