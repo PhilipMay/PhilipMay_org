@@ -50,7 +50,7 @@
 
 ## LLM Datasets
 
-- Function calling: https://huggingface.co/datasets/glaiveai/glaive-function-calling-v2
+- Function calling: <https://huggingface.co/datasets/glaiveai/glaive-function-calling-v2>
 
 ## More
 
