@@ -15,6 +15,7 @@ def test_my_fruit_in_basket(my_value):
 ```
 
 - also see <https://docs.pytest.org/en/6.2.x/fixture.html#back-to-fixtures>
+- [Fixture scopes](https://docs.pytest.org/en/6.2.x/fixture.html#fixture-scopes)
 
 ## Temporary Directories
 
