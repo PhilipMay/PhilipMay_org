@@ -50,7 +50,7 @@ df = pd.read_csv(
 
 - save with pickle
   - `df.to_pickle("file_name.pkl.xz", compression="xz")` for high compression but low speed
-  - `df.to_pickle("file_name.pkl.xz", compression="zstd")`
+  - `df.to_pickle("file_name.pkl.zstd", compression="zstd")`
     - for low compression but high speed
     - needs `zstandard` Python package
   - see <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_pickle.html>
