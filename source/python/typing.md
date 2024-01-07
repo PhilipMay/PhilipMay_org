@@ -13,6 +13,8 @@
   - `Dict[str, List[int]]`
 - `Callable`
   - `Callable[[str], Dict[str, List[int]]]`
+- `Literal["option1", "option2", "option3"]`
+- `Final[str]`
 
 ## Example
 
