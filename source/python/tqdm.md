@@ -2,7 +2,7 @@
 
 ## Links
 
-- s<https://github.com/tqdm/tqdm>
+- <https://github.com/tqdm/tqdm>
 
 ## Usage
 
