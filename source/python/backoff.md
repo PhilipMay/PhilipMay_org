@@ -30,3 +30,5 @@ import backoff
 def do_something():
     pass
 ```
+
+Enable logging: `logging.getLogger('backoff').addHandler(logging.StreamHandler())`
