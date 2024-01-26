@@ -202,10 +202,20 @@ changed.
 - set VSCode as editor: `git config --global core.editor "code --wait"`
 
 ## LFS
-
 - install LFS (on Mac): `brew install git-lfs`
-- `git lfs install`
-- `git lfs track "*.gz"`
+- activate LFS for locale git repo: `git lfs install`
+- add file to LFS tracking: `git lfs track "*.gz"`
+- list files tracked by LFS: `git lfs ls-files`
+
+### Move files to LFS in existing Project
+- dry run: `git lfs migrate info --everything --include="*.tgz"`
+- run migration: `git lfs migrate import --everything --include="*.tgz" --verbose`
+- cleanup step 1: `git reflog expire --expire-unreachable=now --all`
+- cleanup step 2: `git gc --prune=now`
+- also see
+  - <https://notiz.dev/blog/migrate-git-repo-to-git-lfs>
+  - <https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-migrate.adoc>
+  - <https://github.com/git-lfs/git-lfs/wiki/Tutorial?utm_source=pocket_saves#migrating-existing-repository-data-to-lfs>
 
 ## Mac specific
 
