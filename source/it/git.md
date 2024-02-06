@@ -32,6 +32,7 @@
 
 ## Advanced
 
+- list fetch and push URLs: `git remote show origin`
 - change upstream url: `git remote set-url origin new.git.url/here` - see [here](https://stackoverflow.com/a/2432799)
 - add remote after `git init`
   - add remote: `git remote add origin <git_url>`
