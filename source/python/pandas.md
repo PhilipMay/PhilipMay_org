@@ -87,6 +87,14 @@ df = pd.read_csv(
   - high to low values & `Nan` values on top: `df.sort_values("column_name", ascending=False, na_position="first")`
 - shuffle: `df = df.sample(frac=1).reset_index(drop=True)`
 
+### tqdm apply
+
+```python
+from tqdm import tqdm
+tqdm.pandas()
+# now use progress_apply instead of apply
+```
+
 ## Combine Data
 
 ### Stack two Dataframes
