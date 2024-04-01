@@ -8,7 +8,7 @@
 
 project = "May.la"
 html_title = "May.la"
-copyright = "2020 - 2024, Philip May"
+copyright = "2020 - 2024 Philip May"
 author = "Philip May"
 
 # -- General configuration ---------------------------------------------------
