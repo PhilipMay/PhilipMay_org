@@ -1,6 +1,6 @@
 # May.la MyST
 
-This is Philip May’s website project hostet at [May.la](https://may.la/).\
+Philip May’s blog and website project hostet at [PhilipMay.org](https://philipmay.org/).\
 This website is a mixture of documentation, blog and personal notes.
 
 ## Licensing
