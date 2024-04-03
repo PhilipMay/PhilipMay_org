@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "May.la"
-html_title = "May.la"
+project = "PhilipMay.org"
+html_title = "PhilipMay.org"
 copyright = "2020-2024 Philip May"
 author = "Philip May"
 
