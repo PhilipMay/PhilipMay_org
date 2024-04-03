@@ -1,7 +1,5 @@
 # Philip May - Data Science and IT
 
-## About me
-
 I'm Philip May, data scientist expert and open source enthusiast with an NLP focus.\
 I come from Germany and work for Deutsche Telekom.
 
