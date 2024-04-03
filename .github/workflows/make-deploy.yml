@@ -32,7 +32,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: www456.your-server.de
-        username: eniaka_2
+        username: eniaka_3
         password: ${{ secrets.MAY_LA_FTP_PWD }}
         local-dir: ./build/html/
         protocol: ftps
