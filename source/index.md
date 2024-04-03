@@ -7,14 +7,11 @@ I come from Germany and work for Deutsche Telekom.
 
 This website is a mixture of documentation, blog and personal notes.
 
-## Website Topics
-
+[About Me](#my-oss-contribs)\
 [Machine Learning](#ml-main) ·
 [Python](#python-main) ·
 [IT](#it-main) ·
-[Linux](#linux-main)\
-[Blog](#blog-main) ·
-[My Open Source Contributions](#my-oss-contribs)
+[Linux](#linux-main)
 
 :::{toctree}
 :maxdepth: 1
