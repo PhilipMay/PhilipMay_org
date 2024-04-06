@@ -5,7 +5,7 @@ I come from Germany and work for Deutsche Telekom.
 
 This website is a mixture of documentation, blog and personal notes.
 
-[About Me](#my-oss-contribs)\
+[About Me](#about-me)\
 [Machine Learning](#ml-main) ·
 [Python](#python-main) ·
 [IT](#it-main) ·
@@ -20,7 +20,7 @@ python
 it
 linux
 blog
-my-oss-contributions
+about-me
 :::
 
 ## Blog
