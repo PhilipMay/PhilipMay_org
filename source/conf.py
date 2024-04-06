@@ -113,3 +113,8 @@ html_context = {
     "github_version": "main",
     "doc_path": "source",
 }
+
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_js_files
+html_js_files = [
+    "js/matomo.js",
+]
