@@ -121,6 +121,7 @@ html_js_files = [
 
 # Remove the primary sidebar from pages
 # https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/layout.html#remove-the-primary-sidebar-from-pages
-html_sidebars = {
-  "about-me": []
-}
+# we deactivate this - it screws up the navigation of the blog
+# html_sidebars = {
+#   "about-me": []
+# }
