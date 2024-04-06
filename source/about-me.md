@@ -1,6 +1,6 @@
-(my-oss-contribs)=
+(about-me)=
 
-# My Open Source Contributions
+# About Me
 
 This is an overview of my open source [models](#models), [datasets](#datasets),
 [projects](#projects) and [contributions](#pull-requests).
