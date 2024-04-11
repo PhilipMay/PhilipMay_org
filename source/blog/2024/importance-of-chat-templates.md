@@ -1,6 +1,6 @@
 # The importance of chat templates
 
-:::{post}
+:::{post} 2024-04-11
 :::
 
 A long time ago, when GPT-3.5 (without turbo) was current, LLMs were simply trained to complete texts.
@@ -10,6 +10,7 @@ At the same time, there was also the option of using system prompts.
 
 :::{figure} /\_static/img/blog-2024/chat-template.png
 :width: 550px
+:::
 
 OpenAI has named the whole thing Chat API. They define the roles of system, user and assistant.
 Below is an example of how such a conversation is created using the Python API
@@ -83,7 +84,7 @@ In the case of ChatML, it looks like this:
 ```
 
 This template can then be applied with the
-`[tokenizer.apply_chat_template()](https://huggingface.co/docs/transformers/main/en/internal/tokenization_utils#transformers.PreTrainedTokenizerBase.apply_chat_template)`
+[`tokenizer.apply_chat_template()`](https://huggingface.co/docs/transformers/main/en/internal/tokenization_utils#transformers.PreTrainedTokenizerBase.apply_chat_template)
 function. More about this on the Hugging Face [Templates for Chat Models](https://huggingface.co/docs/transformers/main/en/chat_templating) page.
 
 ## The importance of chat templates
@@ -94,5 +95,6 @@ This is exactly what [Daniel Furman](https://github.com/daniel-furman) did on th
 
 :::{figure} /\_static/img/blog-2024/model-eval-template.png
 :width: 550px
+:::
 
 The table clearly shows that the use of the (correct) template has a significant impact on the quality of the generated answers.
