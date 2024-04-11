@@ -8,6 +8,9 @@ When GPT-3.5-turbo was released, there was a small but essential change in the c
 Now the LLM could not only complete texts but also "read and understand" multi turn conversations.
 At the same time, there was also the option of using system prompts.
 
+:::{figure} /\_static/img/blog-2024/chat-template.png
+:width: 550px
+
 OpenAI has named the whole thing Chat API. They define the roles of system, user and assistant.
 Below is an example of how such a conversation is created using the Python API
 ([source](https://platform.openai.com/docs/guides/text-generation)).
@@ -89,4 +92,7 @@ To understand the meaning of chat templates, we can test how the LLMs behave if 
 This is exactly what [Daniel Furman](https://github.com/daniel-furman) did on this
 [GitHub issue conversation](https://github.com/EleutherAI/lm-evaluation-harness/issues/1098#issuecomment-1953068243):
 
-TODO
+:::{figure} /\_static/img/blog-2024/model-eval-template.png
+:width: 550px
+
+The table clearly shows that the use of the (correct) template has a significant impact on the quality of the generated answers.
