@@ -38,6 +38,11 @@ A bilingual summarization model for English and German.
 It is based on the multilingual T5 model [google/mt5-small](https://huggingface.co/google/mt5-small).
 :::
 
+:::{card} [German ELMo Model](https://github.com/t-systems-on-site-services-gmbh/german-elmo-model)
+This is a German [ELMo deep contextualized word representation](https://allennlp.org/elmo).
+It is trained on a special [German Wikipedia Text Corpus](https://github.com/t-systems-on-site-services-gmbh/german-wikipedia-text-corpus).
+:::
+
 ## Datasets
 
 :::{card} [The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)
