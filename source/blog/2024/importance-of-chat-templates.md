@@ -85,4 +85,8 @@ function. More about this on the Hugging Face [Templates for Chat Models](https:
 
 ## The importance of chat templates
 
-To understand the importance of chat templates ...
+To understand the meaning of chat templates, we can test how the LLMs behave if you simply leave out the template.
+This is exactly what [Daniel Furman](https://github.com/daniel-furman) did on this
+[GitHub issue conversation](https://github.com/EleutherAI/lm-evaluation-harness/issues/1098#issuecomment-1953068243):
+
+TODO
