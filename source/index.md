@@ -5,7 +5,7 @@ I come from Germany and work for Deutsche Telekom.
 
 This website is a mixture of documentation, blog and personal notes.
 
-[About Me](#about-me)\
+[About Me](#about-me-main)\
 [Machine Learning](#ml-main) ·
 [Python](#python-main) ·
 [IT](#it-main) ·
