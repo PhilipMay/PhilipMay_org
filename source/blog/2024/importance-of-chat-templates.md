@@ -95,6 +95,10 @@ This is exactly what [Daniel Furman](https://github.com/daniel-furman) did on th
 
 :::{figure} /\_static/img/blog-2024/model-eval-template.png
 :width: 550px
+
+Qualitative comparison of different LLMs with and without the template.
+Table by [Daniel Furman](https://github.com/daniel-furman) from this
+[GitHub issue conversation](https://github.com/EleutherAI/lm-evaluation-harness/issues/1098#issuecomment-1953068243).
 :::
 
 The table clearly shows that the use of the (correct) template has a significant impact on the quality of the generated answers.
