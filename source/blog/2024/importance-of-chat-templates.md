@@ -78,7 +78,7 @@ In the case of ChatML, it looks like this:
     {{ '<|assistant|>\n'  + message['content'] + eos_token }}
   {% endif %}
   {% if loop.last and add_generation_prompt %}
-    {{ '<|assistant|>' }}
+    {{ '<|im_start|>assistant\n' }}
   {% endif %}
 {% endfor %}
 ```
