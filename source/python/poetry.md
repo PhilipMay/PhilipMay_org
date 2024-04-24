@@ -42,6 +42,7 @@ You have to maintain this section in the `pyproject.toml` file by hand:
 - config file on Mac: `~/Library/Application\ Support/pypoetry/config.toml`
 - Poetry directories on Mac:
   - `~/Library/Caches/pypoetry`
+  - venvs: `~/Library/Caches/pypoetry/virtualenvs`
   - `~/Library/Application\ Support/pypoetry`
   - `~/.local/bin` with a symlink to the poetry executable
 
