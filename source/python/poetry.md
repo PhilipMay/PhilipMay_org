@@ -14,6 +14,7 @@
 - add package: `poetry add <package>`
 - install current project with dependencies: `poetry install`
 - publish (and build) to PyPI: `poetry publish --build -u <username> -p <password>`
+- update Poetry itself: `poetry self update`
 
 ## Dependency Groups & Extras
 
