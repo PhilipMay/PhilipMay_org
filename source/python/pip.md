@@ -29,7 +29,7 @@ sence when you do not specify a version number with the package.
 Since pip does not support an “update all” mechanism this is a good way
 to install and update the needed packages.
 
-To add a package from GIT just add `git+<https_git_clone_link>` instead of the normal package name.
+To add a package from GIT just add `package_name @ git+<https_git_clone_link>` instead of the normal package name.
 
 ## Build PyPI Packages
 
