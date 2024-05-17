@@ -157,10 +157,6 @@ docstrings ([Google docstring format](https://github.com/google/styleguide/blob/
 in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 :::
 
-:::{card} [PyCharm Community Edition IDE for Python with bundled JRE](https://aur.archlinux.org/packages/pycharm-community-jre)
-An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
-:::
-
 :::{card} [conda-forge/hyperopt-feedstock](https://github.com/conda-forge/hyperopt-feedstock)
 [conda-forge](https://conda-forge.org/) release of [Hyperopt](https://github.com/hyperopt/hyperopt)
 :::
@@ -241,6 +237,10 @@ the integration of both
 
 :::{card} [Transformer-Tools](https://github.com/telekom/transformer-tools)
 Tools for [Hugging Face / Transformers](https://github.com/huggingface/transformers)
+:::
+
+:::{card} [PyCharm Community Edition IDE for Python with bundled JRE](https://aur.archlinux.org/packages/pycharm-community-jre)
+An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
 :::
 
 %# Indices and tables
