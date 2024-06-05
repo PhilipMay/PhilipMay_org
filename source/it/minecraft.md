@@ -28,3 +28,4 @@
   - activate whitelist: `/whitelist on`
   - add player to whitelist: `/whitelist add <player>`
 - keep inventory: `/gamerule keepInventory true`
+- give item: `/give <player> <item_name> [amount]`
