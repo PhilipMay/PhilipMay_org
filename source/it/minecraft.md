@@ -22,3 +22,9 @@
   - https://github.com/mtoensing/Docker-Minecraft-PaperMC-Server
 - connect to console: `docker attach <container_name>`
 - disconnect from console: `ctrl + p` + `ctrl + q`
+
+## Commands
+- whitelisting
+  - activate whitelist: `/whitelist on`
+  - add player to whitelist: `/whitelist add <player>`
+- keep inventory: `/gamerule keepInventory true`
