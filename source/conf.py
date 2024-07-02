@@ -103,14 +103,16 @@ blog_authors = {
     "PhilipMay": ("Philip May", "http://philipmay.org"),
 }
 
+blog_title = "Philip May - Blog"
+
 # https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html#confval-blog_default_author
 blog_default_author = "PhilipMay"
 
 # turn on blog atom feed
 # https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html#blog-feeds
-blog_baseurl="https://philipmay.org"
+blog_baseurl = "https://philipmay.org"
 
-blog_feed_fulltext=True
+blog_feed_fulltext = True
 
 # https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/source-buttons.html#github
 html_context = {
