@@ -100,7 +100,7 @@ myst_enable_extensions = [
 
 # Blog config https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html
 blog_authors = {
-    "PhilipMay": ("Philip May", "http://may.la"),
+    "PhilipMay": ("Philip May", "http://philipmay.org"),
 }
 
 # https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html#confval-blog_default_author
@@ -109,6 +109,8 @@ blog_default_author = "PhilipMay"
 # turn on blog atom feed
 # https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html#blog-feeds
 blog_baseurl="https://philipmay.org"
+
+blog_feed_fulltext=True
 
 # https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/source-buttons.html#github
 html_context = {
