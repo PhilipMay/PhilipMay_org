@@ -127,7 +127,7 @@ For these reasons, Feather appears to be the best choice in combination with zst
 
 ## Examples
 
-Here are a few concrete examples of how you can save the pandas DataFrames in the various formats and compression levels:
+Here are two concrete examples of how you can save the pandas DataFrames in the various formats and compression levels:
 
 ```python
 # Parquet:
