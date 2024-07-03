@@ -16,8 +16,7 @@ For better transparency, the data and the Jupyter notebooks are stored in a
 
 ## Test Data
 
-Our test data has a size of 785.45 MB in RAM.
-The table has 363,491 rows and 42 columns.
+Our test data has a size of 785.45 MB in RAM with a table of 363,491 rows and 42 columns. 
 The content of the columns is as follows:
 
 - an UUID (string)
