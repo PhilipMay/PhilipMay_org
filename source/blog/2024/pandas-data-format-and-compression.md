@@ -142,9 +142,9 @@ For these reasons, Feather appears to be the best choice in combination with zst
 Here are two concrete examples of how you can save the pandas DataFrames in the various formats and compression levels:
 
 ```python
-# Parquet:
-df.to_parquet("filename.parquet", compression="zstd", compression_level=10)
-
 # Feather:
 df.to_feather("filename.feather", compression="zstd", compression_level=10)
+
+# Parquet:
+df.to_parquet("filename.parquet", compression="zstd", compression_level=10)
 ```
