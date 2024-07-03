@@ -20,7 +20,7 @@ Our test data has a size of 785.45 MB in RAM.
 The table has 363,491 rows and 42 columns.
 The content of the columns is as follows:
 
-- a UUID (string)
+- an UUID (string)
 - an English text (string)
 - 20 columns with random integer values
 - 20 columns with random float values
