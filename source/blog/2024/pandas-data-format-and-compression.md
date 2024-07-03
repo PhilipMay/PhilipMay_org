@@ -14,6 +14,9 @@ Factors such as RAM usage are not considered.
 For better transparency, the data and the Jupyter notebooks are stored in a
 [GitHub repository](https://github.com/PhilipMay/pandas_compression).
 
+:::{figure} /\_static/img/blog-2024/pandas_parquet_feather.png
+:width: 550px
+
 ## Test Data
 
 Our test data has a size of 785.45 MB in RAM with a table of 363,491 rows and 42 columns. 
