@@ -14,6 +14,19 @@ Factors such as RAM usage are not considered.
 For better transparency, the data and the Jupyter notebooks are stored in a
 [GitHub repository](https://github.com/PhilipMay/pandas_compression).
 
+## Test Data
+
+Our test data has a size of 785.45 MB in RAM.
+The table has 363,491 rows and 42 columns.
+The content of the columns is as follows:
+
+- a UUID (string)
+- an English text (string)
+- 20 columns with random integer values
+- 20 columns with random float values
+
+For details see the Notebook called [01_create_dataset.ipynb](https://github.com/PhilipMay/pandas_compression/blob/main/01_create_dataset.ipynb).
+
 ## Compression Methods
 
 First, we compare the compression ratio of the different combinations of data format and compression method.
