@@ -129,7 +129,7 @@ For this reason, only Parquet and Feather appear to be really useful data format
 
 If you consider the compression method together with the compression level,
 then zstd is the best option.
-This is especially true for compression levels between 10 and 12.
+This is especially true for compression levels from 10 to 12.
 
 In terms of data format, Feather seems to be the better choice.
 Feather has a better compression ratio than Parquet.
