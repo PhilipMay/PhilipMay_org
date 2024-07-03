@@ -16,6 +16,7 @@ For better transparency, the data and the Jupyter notebooks are stored in a
 
 :::{figure} /\_static/img/blog-2024/pandas_parquet_feather.png
 :width: 550px
+:::
 
 ## Test Data
 
