@@ -21,8 +21,8 @@
 
 ## LVM
 
-- see https://wiki.archlinux.org/title/LVM
-- see https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS
+- see <https://wiki.archlinux.org/title/LVM>
+- see <https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS>
 
 ### Creation Commands
 
