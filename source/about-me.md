@@ -57,7 +57,7 @@ Ger-RAG-eval is also implemented in [LightEval](https://github.com/huggingface/l
 - [tasks/all_german_rag_evals.txt](https://github.com/huggingface/lighteval/blob/main/examples/tasks/all_german_rag_evals.txt)
 :::
 
-:::{card} [wikipedia-22-12-de-dpr](https://github.com/telekom/wikipedia-22-12-de-dpr)
+:::{card} [wikipedia-22-12-de-dpr](https://huggingface.co/datasets/deutsche-telekom/wikipedia-22-12-de-dpr)
 This dataset provides a German dataset for DPR model training.
 DPR (Dense Passage Retrieval) is one of the most important components of RAG applications.
 Based on this dataset, German document retrieval models can be trained.
