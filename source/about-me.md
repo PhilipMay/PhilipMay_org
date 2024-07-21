@@ -53,8 +53,8 @@ consists of 4 subsets or tasks.
 
 Ger-RAG-eval is also implemented in [LightEval](https://github.com/huggingface/lighteval):
 
-- <https://github.com/huggingface/lighteval/blob/main/community_tasks/german_rag_evals.py>
-- <https://github.com/huggingface/lighteval/blob/main/examples/tasks/all_german_rag_evals.txt>
+- [community_tasks/german_rag_evals.py](https://github.com/huggingface/lighteval/blob/main/community_tasks/german_rag_evals.py)
+- [tasks/all_german_rag_evals.txt](https://github.com/huggingface/lighteval/blob/main/examples/tasks/all_german_rag_evals.txt)
 :::
 
 :::{card} [The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)
