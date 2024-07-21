@@ -45,6 +45,18 @@ It is trained on a special [German Wikipedia Text Corpus](https://github.com/t-s
 
 ## Datasets
 
+:::{card} [Ger-RAG-eval](https://huggingface.co/datasets/deutsche-telekom/Ger-RAG-eval)
+This dataset is intended for the evaluation of German RAG (retrieval augmented generation) capabilities of LLM models.
+It is based on the test set of the [deutsche-telekom/wikipedia-22-12-de-dpr](https://huggingface.co/datasets/deutsche-telekom/wikipedia-22-12-de-dpr)
+data set (also see [wikipedia-22-12-de-dpr on GitHub](https://github.com/telekom/wikipedia-22-12-de-dpr)) and
+consists of 4 subsets or tasks.
+
+Ger-RAG-eval is also implemented in [LightEval](https://github.com/huggingface/lighteval):
+
+- <https://github.com/huggingface/lighteval/blob/main/community_tasks/german_rag_evals.py>
+- <https://github.com/huggingface/lighteval/blob/main/examples/tasks/all_german_rag_evals.txt>
+:::
+
 :::{card} [The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)
 This is a German text corpus which is based on [Common Crawl](https://commoncrawl.org/).
 The text corpus has the size of 454 GB packed. Unpacked it is more than 1 TB.
