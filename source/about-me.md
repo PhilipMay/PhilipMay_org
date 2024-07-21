@@ -57,6 +57,17 @@ Ger-RAG-eval is also implemented in [LightEval](https://github.com/huggingface/l
 - [tasks/all_german_rag_evals.txt](https://github.com/huggingface/lighteval/blob/main/examples/tasks/all_german_rag_evals.txt)
 :::
 
+:::{card} [wikipedia-22-12-de-dpr](https://github.com/telekom/wikipedia-22-12-de-dpr)
+This dataset provides a German dataset for DPR model training.
+DPR (Dense Passage Retrieval) is one of the most important components of RAG applications.
+Based on this dataset, German document retrieval models can be trained.
+
+The unique feature of this data set is that it contains not only training data for questions,
+but also imperative questions.
+An imperative question is a type of question that is phrased as a command or an instruction.
+Since there is a formal and informal form of address in German, both cases are included in the case of imperative questions.
+:::
+
 :::{card} [The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)
 This is a German text corpus which is based on [Common Crawl](https://commoncrawl.org/).
 The text corpus has the size of 454 GB packed. Unpacked it is more than 1 TB.
