@@ -1,6 +1,6 @@
 # The selection of topic-specific texts from Wikipedia
 
-:::{post} 2024-08-08
+:::{post} 2024-08-09
 :::
 
 For some machine learning tasks, you want to obtain texts on specific topics.
