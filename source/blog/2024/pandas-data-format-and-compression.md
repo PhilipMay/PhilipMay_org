@@ -151,5 +151,5 @@ This is particularly good to know because the documentation for the `compression
 df.to_feather("filename.feather", compression="zstd", compression_level=10)
 
 # Parquet:
-df.to_parquet("filename.parquet", compression="zstd", compression_level=10)
+df.to_parquet("filename.parquet", compression="zstd", compression_level=10, index=False))
 ```
