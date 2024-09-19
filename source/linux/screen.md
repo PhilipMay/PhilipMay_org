@@ -6,6 +6,10 @@
 - list sessions: `screen -ls`
 - resume detached session: `screen -r <session_name>`
 
+## Keyboard Commands
+
+- scroll up: `ctrl` + `a` then `esc`
+
 ## Recover a "lost" Screen Session
 
 If your remote connection crashed while you had an open screen session
