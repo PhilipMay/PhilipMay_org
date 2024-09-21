@@ -10,3 +10,4 @@
 - create new virtual environment with name: `python -m venv --prompt <name> .venv`
 - create new virtual environment with name and copies rather than symlinks: `python -m venv --copies --prompt <name> .venv`
 - activate env.: `source .venv/bin/activate`
+- deactivate env.: `deactivate`
