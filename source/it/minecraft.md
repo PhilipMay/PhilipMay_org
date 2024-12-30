@@ -30,4 +30,4 @@
 - keep inventory: `/gamerule keepInventory true`
 - give item: `/give <player> <item_name> [amount]`
 - switch game mode: `/gamemode creative`
-- prevent TNT (and Creepers) from destroying blocks: `/gamerule mobGriefing false`
+- prevent Creepers from destroying blocks: `/gamerule mobGriefing false`
