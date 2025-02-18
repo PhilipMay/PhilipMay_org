@@ -2,7 +2,7 @@
 
 ## Links
 
-- https://python-poetry.org/docs/
+- <https://python-poetry.org/docs/>
   - [Commands](https://python-poetry.org/docs/cli/)
   - [Configuration](https://python-poetry.org/docs/configuration/)
   - [Dependency specification (version constraints)](https://python-poetry.org/docs/dependency-specification/)
