@@ -2,7 +2,7 @@
 
 ## Links
 
-- https://github.com/pyenv/pyenv
+- <https://github.com/pyenv/pyenv>
 - [Command Reference](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)
 
 ## Commands
