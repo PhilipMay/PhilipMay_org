@@ -9,6 +9,7 @@
 - [Nixpkgs Manual](https://nixos.org/manual/nixpkgs/stable/)
 - [Nix Reference Manual](https://nixos.org/manual/nix/stable/)
   - [Main Commands](https://nixos.org/manual/nix/stable/command-ref/main-commands#main-commands)
+- [Releases](https://nixos.org/manual/nixos/stable/release-notes)
 - Searches
   - Packages: <https://search.nixos.org/packages>
   - Options: <https://search.nixos.org/options>
