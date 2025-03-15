@@ -19,8 +19,8 @@
 
 ## Packages
 
-- Docker: https://nixos.wiki/wiki/Docker
-- Tor: https://nixos.wiki/wiki/Tor
+- Docker: <https://nixos.wiki/wiki/Docker>
+- Tor: <https://nixos.wiki/wiki/Tor>
 
 ## Know-how
 
@@ -36,7 +36,9 @@
   - keep last 2 generations, along with any newer than current: `nix-env --delete-generations +2`
 - after removing old generations run garbage collector: `nix-store --gc`
 - delete unreachable store objects: `nix-collect-garbage -d`
-- also see: <https://nixos.org/manual/nix/stable/package-management/garbage-collection>
+- also see
+  - <https://nixos.org/manual/nix/stable/package-management/garbage-collection>
+  - <https://nixos.org/manual/nixos/stable/#sec-nix-gc>
 
 ## Installation
 
