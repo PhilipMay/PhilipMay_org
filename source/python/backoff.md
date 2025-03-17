@@ -35,5 +35,5 @@ Enable logging:
 
 ```python
 import logging
-logging.getLogger('backoff').addHandler(logging.StreamHandler())
+logging.getLogger("backoff").addHandler(logging.StreamHandler())
 ```
