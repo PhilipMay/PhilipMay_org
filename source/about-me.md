@@ -170,10 +170,6 @@ The MLflow Docker image.\
 MLflow does not provide an official Docker image. This project fills that gap.
 :::
 
-:::{card} [Lazy-Imports](https://github.com/telekom/lazy-imports)
-Python tool to support lazy imports
-:::
-
 :::{card} [Style-Doc](https://github.com/telekom/style-doc)
 This is Black for Python docstrings and reStructuredText (rst). It can be used to format
 docstrings ([Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings))
@@ -241,6 +237,10 @@ in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage
 :::
 
 ## Archived Projects
+
+:::{card} [Lazy-Imports](https://github.com/telekom/lazy-imports)
+Python tool to support lazy imports
+:::
 
 :::{card} [Machine Learning Tool Box](https://github.com/PhilipMay/mltb)
 This is the machine learning tool box.
