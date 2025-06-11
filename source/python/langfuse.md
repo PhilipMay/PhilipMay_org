@@ -3,6 +3,8 @@
 ## Links
 
 - [Doc](https://langfuse.com/docs)
+- [Python v3 SDK (OTEL-based)](https://langfuse.com/docs/sdk/python/sdk-v3)
+- [OTEL (OpenTelemetry)](https://opentelemetry.io/)
 
 ## Traces and Observations
 
