@@ -14,5 +14,5 @@
 
 ## Commands
 
-- create project: `uv init --lib <project_name>`
-- create project with specific Python version: `uv init --lib <project_name> --python <python_version>`
+- create project (as a library): `uv init --lib <project_name>`
+- create project (as a library) with specific Python version: `uv init --lib <project_name> --python <python_version>`
