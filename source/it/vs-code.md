@@ -14,7 +14,7 @@
 - debug all code - not just your own: `Extensions -> Python -> Debug Just My Code`
 - change font: Editor: `Font Family -> prepend "'Source Code Pro', "` for example
 - change textsize of UI: `Window: Zoom Level`
-- show vertical ruler for max line length: `Editor: Rulers` - also see https://stackoverflow.com/a/29972073
+- show vertical ruler for max line length: `Editor: Rulers` - also see <https://stackoverflow.com/a/29972073>
 - auto save: `Text Editor -> Files -> Auto Save -> "onFocusChange"`
 - show modified settings: `open settings -> click "..." (top right) -> select "Show modifies settings"`
 
