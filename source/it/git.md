@@ -195,7 +195,9 @@ changed.
 - set mail
   - local: `git config user.email "<mail>"`
   - global: `git config --global user.email "<mail>"`
-- change editor to nano (global): `git config --global core.editor "nano"`
+- change editor
+    - to nano (global): `git config --global core.editor "nano"`
+    - to VS-Code (global): `git config --global core.editor "code --wait"`
 - global ignore Settings
   - create `~/.gitignore_global` file with ignore settings
   - execute `git config --global core.excludesfile ~/.gitignore_global`
