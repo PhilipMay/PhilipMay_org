@@ -13,6 +13,12 @@
 - mount disk or patition: `mount /dev/<disk> /mnt`
 - mount everything defined in `/etc/fstab`: `mount -a`
 
+## SMART
+
+- see SMART values: `smartctl -a /dev/<device>`
+- start long test: `smartctl -t long /dev/<device>`
+- check test status: `smartctl -c /dev/<device> | grep -A1 "Self-test execution"`
+
 ## Backup with `dd`
 
 - https://wiki.archlinux.org/title/Dd
