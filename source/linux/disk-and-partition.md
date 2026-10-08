@@ -6,6 +6,7 @@
 - filesystem check: `e2fsck -vf /dev/<disk>`
 - delete all filesystems on disk: `wipefs -a /dev/<disk>`
 - delete all GPT and MBR data structures: `sgdisk --zap-all /dev/<disk>`
+- see disks and ATA ports `lsblk -d -o NAME,HCTL,TRAN,MODEL,SERIAL,SIZE` (see first number of HCTL col.)
 
 ## Mount
 
