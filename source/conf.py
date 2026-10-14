@@ -123,9 +123,9 @@ html_context = {
 }
 
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_js_files
-html_js_files = [
-    "js/matomo.js",
-]
+#html_js_files = [
+#    "js/matomo.js",
+#]
 
 # Remove the primary sidebar from pages
 # https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/layout.html#remove-the-primary-sidebar-from-pages
